@@ -1,0 +1,158 @@
+{
+  "materials": [
+    {
+      "name": "PLA", "description": "Einsteiger / Optik, steif aber spröde",
+      "nozzleTempMinCelsius": 190, "nozzleTempMaxCelsius": 220, "bedTempCelsius": 60, "fanPercent": 100, "dryingTempCelsius": 50, "dryingHours": 4, "abrasive": false,
+      "meltingTempCelsius": 165, "glassTransitionCelsius": 60, "hdtCelsius": 55, "thermalExpansionUmPerMK": 68, "shrinkagePercent": 0.3,
+      "tensileStrengthXyMPa": 50, "tensileStrengthZMPa": 30, "impactStrengthKjPerM2": 7, "hardness": 83, "hardnessScale": "ShoreD", "creepResistance": "Gering", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.5, "uvResistance": "Gering", "chemicalResistance": "Gering", "warpingTendency": "Gering"
+    },
+    {
+      "name": "PLA+", "description": "PLA zähmodifiziert, schlagzäher als Standard-PLA",
+      "nozzleTempMinCelsius": 200, "nozzleTempMaxCelsius": 230, "bedTempCelsius": 60, "fanPercent": 100, "dryingTempCelsius": 50, "dryingHours": 4, "abrasive": false,
+      "meltingTempCelsius": 160, "glassTransitionCelsius": 60, "hdtCelsius": 58, "thermalExpansionUmPerMK": 70, "shrinkagePercent": 0.3,
+      "tensileStrengthXyMPa": 45, "tensileStrengthZMPa": 30, "impactStrengthKjPerM2": 18, "hardness": 80, "hardnessScale": "ShoreD", "creepResistance": "Gering", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.5, "uvResistance": "Gering", "chemicalResistance": "Gering", "warpingTendency": "Gering"
+    },
+    {
+      "name": "PLA-CF", "description": "PLA mit Kohlefaser, steif und maßhaltig (abrasiv)",
+      "nozzleTempMinCelsius": 200, "nozzleTempMaxCelsius": 230, "bedTempCelsius": 60, "fanPercent": 100, "dryingTempCelsius": 50, "dryingHours": 6, "abrasive": true,
+      "meltingTempCelsius": 165, "glassTransitionCelsius": 60, "hdtCelsius": 58, "thermalExpansionUmPerMK": 40, "shrinkagePercent": 0.2,
+      "tensileStrengthXyMPa": 55, "tensileStrengthZMPa": 25, "impactStrengthKjPerM2": 6, "hardness": 85, "hardnessScale": "ShoreD", "creepResistance": "Mittel", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.5, "uvResistance": "Gering", "chemicalResistance": "Gering", "warpingTendency": "Gering"
+    },
+    {
+      "name": "PLA Glow", "description": "PLA mit Leuchtpigmenten, nachleuchtend (abrasiv)",
+      "nozzleTempMinCelsius": 190, "nozzleTempMaxCelsius": 220, "bedTempCelsius": 60, "fanPercent": 100, "dryingTempCelsius": 50, "dryingHours": 4, "abrasive": true,
+      "meltingTempCelsius": 165, "glassTransitionCelsius": 60, "hdtCelsius": 55, "thermalExpansionUmPerMK": 68, "shrinkagePercent": 0.3,
+      "tensileStrengthXyMPa": 45, "tensileStrengthZMPa": 25, "impactStrengthKjPerM2": 5, "hardness": 82, "hardnessScale": "ShoreD", "creepResistance": "Gering", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.5, "uvResistance": "Gering", "chemicalResistance": "Gering", "warpingTendency": "Gering"
+    },
+    {
+      "name": "Holz-PLA", "description": "Bio-Filament: PLA mit Holzfasern, Holzoptik",
+      "nozzleTempMinCelsius": 190, "nozzleTempMaxCelsius": 210, "bedTempCelsius": 55, "fanPercent": 100, "dryingTempCelsius": 50, "dryingHours": 4, "abrasive": false,
+      "meltingTempCelsius": 160, "glassTransitionCelsius": 58, "hdtCelsius": 52, "thermalExpansionUmPerMK": 60, "shrinkagePercent": 0.3,
+      "tensileStrengthXyMPa": 35, "tensileStrengthZMPa": 20, "impactStrengthKjPerM2": 4, "hardness": 78, "hardnessScale": "ShoreD", "creepResistance": "Gering", "wearResistance": "Gering",
+      "waterAbsorptionPercent": 1.0, "uvResistance": "Gering", "chemicalResistance": "Gering", "warpingTendency": "Gering"
+    },
+    {
+      "name": "PETG", "description": "Allround / Mechanisch belastbar",
+      "nozzleTempMinCelsius": 230, "nozzleTempMaxCelsius": 250, "bedTempCelsius": 80, "fanPercent": 40, "dryingTempCelsius": 65, "dryingHours": 4, "abrasive": false,
+      "meltingTempCelsius": 235, "glassTransitionCelsius": 80, "hdtCelsius": 70, "thermalExpansionUmPerMK": 60, "shrinkagePercent": 0.4,
+      "tensileStrengthXyMPa": 50, "tensileStrengthZMPa": 35, "impactStrengthKjPerM2": 35, "hardness": 72, "hardnessScale": "ShoreD", "creepResistance": "Mittel", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.25, "uvResistance": "Mittel", "chemicalResistance": "Mittel", "warpingTendency": "Gering"
+    },
+    {
+      "name": "PETG-CF", "description": "PETG mit Kohlefaser, steifer und hitzebeständiger (abrasiv)",
+      "nozzleTempMinCelsius": 240, "nozzleTempMaxCelsius": 260, "bedTempCelsius": 80, "fanPercent": 30, "dryingTempCelsius": 65, "dryingHours": 6, "abrasive": true,
+      "meltingTempCelsius": 235, "glassTransitionCelsius": 80, "hdtCelsius": 80, "thermalExpansionUmPerMK": 40, "shrinkagePercent": 0.3,
+      "tensileStrengthXyMPa": 55, "tensileStrengthZMPa": 30, "impactStrengthKjPerM2": 10, "hardness": 78, "hardnessScale": "ShoreD", "creepResistance": "Hoch", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.3, "uvResistance": "Mittel", "chemicalResistance": "Mittel", "warpingTendency": "Gering"
+    },
+    {
+      "name": "ABS", "description": "Robust und hitzebeständiger als PLA, neigt zu Verzug",
+      "nozzleTempMinCelsius": 240, "nozzleTempMaxCelsius": 260, "bedTempCelsius": 100, "fanPercent": 0, "dryingTempCelsius": 80, "dryingHours": 4, "abrasive": false,
+      "meltingTempCelsius": null, "glassTransitionCelsius": 105, "hdtCelsius": 95, "thermalExpansionUmPerMK": 90, "shrinkagePercent": 0.7,
+      "tensileStrengthXyMPa": 40, "tensileStrengthZMPa": 28, "impactStrengthKjPerM2": 25, "hardness": 76, "hardnessScale": "ShoreD", "creepResistance": "Mittel", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.4, "uvResistance": "Gering", "chemicalResistance": "Mittel", "warpingTendency": "Hoch"
+    },
+    {
+      "name": "ASA", "description": "Outdoor-Variante von ABS, UV-stabil",
+      "nozzleTempMinCelsius": 245, "nozzleTempMaxCelsius": 265, "bedTempCelsius": 100, "fanPercent": 0, "dryingTempCelsius": 80, "dryingHours": 4, "abrasive": false,
+      "meltingTempCelsius": null, "glassTransitionCelsius": 100, "hdtCelsius": 92, "thermalExpansionUmPerMK": 95, "shrinkagePercent": 0.6,
+      "tensileStrengthXyMPa": 42, "tensileStrengthZMPa": 30, "impactStrengthKjPerM2": 28, "hardness": 77, "hardnessScale": "ShoreD", "creepResistance": "Mittel", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.4, "uvResistance": "Hoch", "chemicalResistance": "Mittel", "warpingTendency": "Hoch"
+    },
+    {
+      "name": "PC", "description": "Polycarbonat: sehr schlagzäh und hitzebeständig, braucht geschlossenen Bauraum",
+      "nozzleTempMinCelsius": 260, "nozzleTempMaxCelsius": 300, "bedTempCelsius": 110, "fanPercent": 0, "dryingTempCelsius": 80, "dryingHours": 6, "abrasive": false,
+      "meltingTempCelsius": null, "glassTransitionCelsius": 147, "hdtCelsius": 130, "thermalExpansionUmPerMK": 65, "shrinkagePercent": 0.8,
+      "tensileStrengthXyMPa": 60, "tensileStrengthZMPa": 40, "impactStrengthKjPerM2": 60, "hardness": 80, "hardnessScale": "ShoreD", "creepResistance": "Hoch", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.35, "uvResistance": "Mittel", "chemicalResistance": "Gering", "warpingTendency": "Hoch"
+    },
+    {
+      "name": "PA6", "description": "Nylon 6: zäh und abriebfest, stark hygroskopisch",
+      "nozzleTempMinCelsius": 250, "nozzleTempMaxCelsius": 270, "bedTempCelsius": 80, "fanPercent": 0, "dryingTempCelsius": 80, "dryingHours": 12, "abrasive": false,
+      "meltingTempCelsius": 220, "glassTransitionCelsius": 50, "hdtCelsius": 140, "thermalExpansionUmPerMK": 85, "shrinkagePercent": 1.5,
+      "tensileStrengthXyMPa": 55, "tensileStrengthZMPa": 35, "impactStrengthKjPerM2": 20, "hardness": 78, "hardnessScale": "ShoreD", "creepResistance": "Mittel", "wearResistance": "Hoch",
+      "waterAbsorptionPercent": 2.8, "uvResistance": "Mittel", "chemicalResistance": "Hoch", "warpingTendency": "Hoch"
+    },
+    {
+      "name": "PA12", "description": "Nylon 12: zäh und abriebfest, weniger hygroskopisch als PA6",
+      "nozzleTempMinCelsius": 240, "nozzleTempMaxCelsius": 260, "bedTempCelsius": 70, "fanPercent": 20, "dryingTempCelsius": 80, "dryingHours": 6, "abrasive": false,
+      "meltingTempCelsius": 178, "glassTransitionCelsius": 45, "hdtCelsius": 110, "thermalExpansionUmPerMK": 110, "shrinkagePercent": 1.2,
+      "tensileStrengthXyMPa": 45, "tensileStrengthZMPa": 35, "impactStrengthKjPerM2": 30, "hardness": 75, "hardnessScale": "ShoreD", "creepResistance": "Mittel", "wearResistance": "Hoch",
+      "waterAbsorptionPercent": 0.8, "uvResistance": "Mittel", "chemicalResistance": "Hoch", "warpingTendency": "Mittel"
+    },
+    {
+      "name": "PA-CF", "description": "Nylon mit Kohlefaser: sehr steif und hitzebeständig (abrasiv)",
+      "nozzleTempMinCelsius": 270, "nozzleTempMaxCelsius": 290, "bedTempCelsius": 90, "fanPercent": 0, "dryingTempCelsius": 80, "dryingHours": 12, "abrasive": true,
+      "meltingTempCelsius": 220, "glassTransitionCelsius": 50, "hdtCelsius": 180, "thermalExpansionUmPerMK": 30, "shrinkagePercent": 0.5,
+      "tensileStrengthXyMPa": 90, "tensileStrengthZMPa": 55, "impactStrengthKjPerM2": 10, "hardness": 85, "hardnessScale": "ShoreD", "creepResistance": "Hoch", "wearResistance": "Hoch",
+      "waterAbsorptionPercent": 2.0, "uvResistance": "Mittel", "chemicalResistance": "Hoch", "warpingTendency": "Mittel"
+    },
+    {
+      "name": "PA-GF", "description": "Nylon mit Glasfaser: steif und formstabil (abrasiv)",
+      "nozzleTempMinCelsius": 260, "nozzleTempMaxCelsius": 290, "bedTempCelsius": 90, "fanPercent": 0, "dryingTempCelsius": 80, "dryingHours": 12, "abrasive": true,
+      "meltingTempCelsius": 220, "glassTransitionCelsius": 50, "hdtCelsius": 170, "thermalExpansionUmPerMK": 40, "shrinkagePercent": 0.7,
+      "tensileStrengthXyMPa": 70, "tensileStrengthZMPa": 45, "impactStrengthKjPerM2": 12, "hardness": 84, "hardnessScale": "ShoreD", "creepResistance": "Hoch", "wearResistance": "Hoch",
+      "waterAbsorptionPercent": 2.2, "uvResistance": "Mittel", "chemicalResistance": "Hoch", "warpingTendency": "Mittel"
+    },
+    {
+      "name": "TPU 95A", "description": "Flexibel / dämpfend (Shore 95A)",
+      "nozzleTempMinCelsius": 220, "nozzleTempMaxCelsius": 240, "bedTempCelsius": 50, "fanPercent": 50, "dryingTempCelsius": 70, "dryingHours": 6, "abrasive": false,
+      "meltingTempCelsius": 190, "glassTransitionCelsius": -30, "hdtCelsius": 85, "thermalExpansionUmPerMK": 150, "shrinkagePercent": 0.8,
+      "tensileStrengthXyMPa": 35, "tensileStrengthZMPa": 25, "impactStrengthKjPerM2": 100, "hardness": 95, "hardnessScale": "ShoreA", "creepResistance": "Mittel", "wearResistance": "Hoch",
+      "waterAbsorptionPercent": 1.2, "uvResistance": "Mittel", "chemicalResistance": "Mittel", "warpingTendency": "Gering"
+    },
+    {
+      "name": "TPU 85A", "description": "Sehr weich und dehnbar (Shore 85A)",
+      "nozzleTempMinCelsius": 210, "nozzleTempMaxCelsius": 230, "bedTempCelsius": 50, "fanPercent": 50, "dryingTempCelsius": 70, "dryingHours": 6, "abrasive": false,
+      "meltingTempCelsius": 180, "glassTransitionCelsius": -35, "hdtCelsius": 75, "thermalExpansionUmPerMK": 160, "shrinkagePercent": 1.0,
+      "tensileStrengthXyMPa": 30, "tensileStrengthZMPa": 20, "impactStrengthKjPerM2": 100, "hardness": 85, "hardnessScale": "ShoreA", "creepResistance": "Mittel", "wearResistance": "Hoch",
+      "waterAbsorptionPercent": 1.5, "uvResistance": "Mittel", "chemicalResistance": "Mittel", "warpingTendency": "Gering"
+    },
+    {
+      "name": "PP", "description": "Polypropylen: chemikalienbeständig und leicht, schwer zu drucken",
+      "nozzleTempMinCelsius": 220, "nozzleTempMaxCelsius": 250, "bedTempCelsius": 90, "fanPercent": 50, "dryingTempCelsius": 0, "dryingHours": 0, "abrasive": false,
+      "meltingTempCelsius": 165, "glassTransitionCelsius": -10, "hdtCelsius": 90, "thermalExpansionUmPerMK": 120, "shrinkagePercent": 1.8,
+      "tensileStrengthXyMPa": 25, "tensileStrengthZMPa": 18, "impactStrengthKjPerM2": 30, "hardness": 68, "hardnessScale": "ShoreD", "creepResistance": "Gering", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.05, "uvResistance": "Gering", "chemicalResistance": "Hoch", "warpingTendency": "Hoch"
+    },
+    {
+      "name": "HIPS", "description": "Gut bearbeitbar, oft als lösliches Stützmaterial (Limonen) genutzt",
+      "nozzleTempMinCelsius": 230, "nozzleTempMaxCelsius": 250, "bedTempCelsius": 100, "fanPercent": 20, "dryingTempCelsius": 60, "dryingHours": 4, "abrasive": false,
+      "meltingTempCelsius": null, "glassTransitionCelsius": 100, "hdtCelsius": 80, "thermalExpansionUmPerMK": 80, "shrinkagePercent": 0.5,
+      "tensileStrengthXyMPa": 30, "tensileStrengthZMPa": 20, "impactStrengthKjPerM2": 12, "hardness": 73, "hardnessScale": "ShoreD", "creepResistance": "Mittel", "wearResistance": "Gering",
+      "waterAbsorptionPercent": 0.1, "uvResistance": "Gering", "chemicalResistance": "Gering", "warpingTendency": "Mittel"
+    },
+    {
+      "name": "PVA", "description": "Wasserlösliches Stützmaterial, nicht für tragende Teile",
+      "nozzleTempMinCelsius": 180, "nozzleTempMaxCelsius": 200, "bedTempCelsius": 60, "fanPercent": 50, "dryingTempCelsius": 55, "dryingHours": 6, "abrasive": false,
+      "meltingTempCelsius": 190, "glassTransitionCelsius": 65, "hdtCelsius": 50, "thermalExpansionUmPerMK": 100, "shrinkagePercent": 0.5,
+      "tensileStrengthXyMPa": 30, "tensileStrengthZMPa": 20, "impactStrengthKjPerM2": 3, "hardness": 60, "hardnessScale": "ShoreD", "creepResistance": "Gering", "wearResistance": "Gering",
+      "waterAbsorptionPercent": 10, "uvResistance": "Gering", "chemicalResistance": "Gering", "warpingTendency": "Gering"
+    },
+    {
+      "name": "PEI (Ultem)", "description": "Hochleistung: sehr hitzebeständig und schwer entflammbar, braucht Hochtemperatur-Drucker",
+      "nozzleTempMinCelsius": 370, "nozzleTempMaxCelsius": 390, "bedTempCelsius": 150, "fanPercent": 0, "dryingTempCelsius": 150, "dryingHours": 6, "abrasive": false,
+      "meltingTempCelsius": null, "glassTransitionCelsius": 217, "hdtCelsius": 200, "thermalExpansionUmPerMK": 56, "shrinkagePercent": 0.7,
+      "tensileStrengthXyMPa": 80, "tensileStrengthZMPa": 50, "impactStrengthKjPerM2": 20, "hardness": 85, "hardnessScale": "ShoreD", "creepResistance": "Hoch", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 1.2, "uvResistance": "Mittel", "chemicalResistance": "Hoch", "warpingTendency": "Hoch"
+    },
+    {
+      "name": "PEEK", "description": "Hochleistung: extrem hitze- und chemikalienbeständig, braucht Hochtemperatur-Drucker",
+      "nozzleTempMinCelsius": 380, "nozzleTempMaxCelsius": 420, "bedTempCelsius": 130, "fanPercent": 0, "dryingTempCelsius": 150, "dryingHours": 4, "abrasive": false,
+      "meltingTempCelsius": 343, "glassTransitionCelsius": 143, "hdtCelsius": 160, "thermalExpansionUmPerMK": 47, "shrinkagePercent": 1.2,
+      "tensileStrengthXyMPa": 85, "tensileStrengthZMPa": 55, "impactStrengthKjPerM2": 12, "hardness": 85, "hardnessScale": "ShoreD", "creepResistance": "Hoch", "wearResistance": "Hoch",
+      "waterAbsorptionPercent": 0.5, "uvResistance": "Hoch", "chemicalResistance": "Hoch", "warpingTendency": "Hoch"
+    },
+    {
+      "name": "PVDF", "description": "Fluorpolymer: hervorragend chemikalien- und UV-beständig",
+      "nozzleTempMinCelsius": 230, "nozzleTempMaxCelsius": 260, "bedTempCelsius": 90, "fanPercent": 20, "dryingTempCelsius": 0, "dryingHours": 0, "abrasive": false,
+      "meltingTempCelsius": 175, "glassTransitionCelsius": -35, "hdtCelsius": 120, "thermalExpansionUmPerMK": 120, "shrinkagePercent": 2.5,
+      "tensileStrengthXyMPa": 40, "tensileStrengthZMPa": 25, "impactStrengthKjPerM2": 20, "hardness": 78, "hardnessScale": "ShoreD", "creepResistance": "Mittel", "wearResistance": "Mittel",
+      "waterAbsorptionPercent": 0.04, "uvResistance": "Hoch", "chemicalResistance": "Hoch", "warpingTendency": "Hoch"
+    }
+  ]
+}
